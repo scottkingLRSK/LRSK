@@ -1,0 +1,6 @@
+@ECHO OFF
+
+curl -v -X GET "https://api.columbus.sage.com/uki/sageone/accounts/v3/addresses?contact_id={string}&bank_account_id={string}&updated_or_created_since={string}&deleted_since={string}&show_legacy_id={boolean}&items_per_page=20&page=1&attributes={string}"
+-H "Ocp-Apim-Subscription-Key: {subscription key}"
+
+--data-ascii "{body}" 
